@@ -119,7 +119,7 @@ const EditarQuest = () => {
       console.log("Resposta do servidor:", response.data);
   
       // Set the QR code URL with the random hash
-      const qrUrl = `http://localhost:5173/${randomHash}`;
+      const qrUrl = `https://frontend-personalise-personalise.apps.cluster-68szh.68szh.sandbox2670.opentlc.com/${randomHash}`;
       setQrCodeUrl(qrUrl);
   
       setShowModal(true);

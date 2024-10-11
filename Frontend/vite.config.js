@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 console.log("VITE_API_URL:", process.env.VITE_API_URL); // Verifique se a variável está carregada
+console.log("WEB_URL:", process.env.WEB_URL);
 
 export default defineConfig({
   plugins: [react()],

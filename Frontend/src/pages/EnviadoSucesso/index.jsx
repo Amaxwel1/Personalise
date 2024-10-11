@@ -48,7 +48,7 @@ const EnviadoSucesso = () => {
           <C.containerSucesso>
             <C.imagemSucesso src={`${window.location.origin}/sucesso.png`} />
             <C.containerTextoSucesso>
-              <C.parabens> Parabens! </C.parabens>
+              <C.parabens> Parabéns! </C.parabens>
               <C.textoSucesso>
                 {" "}
                 Questionário enviado com sucesso!{" "}
